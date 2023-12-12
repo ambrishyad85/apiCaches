@@ -36,16 +36,13 @@ namespace TestProject1
 
         //[Test]
         [TestCase]
-        public void Test1()
+        public void InsertAndFetchRecords()
         {
           
            
             var FetchAllRecords = _StoriesController.FetchAllRecordsTitleAndURL();
-            if(FetchAllRecords!=null)
-                Assert.IsTrue(true);
-            else
-                Assert.IsTrue(false);
-            
+            Assert.IsNotNull(FetchAllRecords);
+
         }
     }
 }

@@ -54,12 +54,17 @@ namespace API_Rsystem.BAL
             Task<List<string>>_FetchStoriesID= FetchStoriesID();
             if (_FetchStoriesID.Result != null)
             {
-                foreach (var item in _FetchStoriesID.Result)
+                Parallel.ForEach(_FetchStoriesID.Result, item =>
                 {
-                    Task<newStories> _FetchTitleLinkBystoriesID = FetchTitleLinkBystoriesID(item,true);
-                    //if(_FetchTitleLinkBystoriesID.Result!=null)
-                    //InsertTitleLinkStories(_FetchTitleLinkBystoriesID.Result, true);
-                }
+                    Task<newStories> _FetchTitleLinkBystoriesID = FetchTitleLinkBystoriesID(item, true);
+                });
+
+                //foreach (var item in _FetchStoriesID.Result)
+                //{
+                //    Task<newStories> _FetchTitleLinkBystoriesID = FetchTitleLinkBystoriesID(item,true);
+                //    //if(_FetchTitleLinkBystoriesID.Result!=null)
+                //    //InsertTitleLinkStories(_FetchTitleLinkBystoriesID.Result, true);
+                //}
             }
             return true;
         }

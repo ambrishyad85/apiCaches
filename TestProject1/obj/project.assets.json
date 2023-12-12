@@ -1711,9 +1711,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ambrish\\Learn\\API_Rsystem\\TestProject1\\TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "C:\\ambrish\\Learn\\API_Rsystem\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\ambrish\\Learn\\API_Rsystem\\TestProject1\\Test_RsystemAPI.csproj",
+      "projectName": "Test_RsystemAPI",
+      "projectPath": "C:\\ambrish\\Learn\\API_Rsystem\\TestProject1\\Test_RsystemAPI.csproj",
       "packagesPath": "C:\\Users\\ambayadav\\.nuget\\packages\\",
       "outputPath": "C:\\ambrish\\Learn\\API_Rsystem\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",

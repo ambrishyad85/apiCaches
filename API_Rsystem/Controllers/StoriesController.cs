@@ -28,9 +28,9 @@ namespace API_Rsystem.Controllers
         [HttpGet]
         public IActionResult FetchAllRecordsTitleAndURL()
         {
-            
+
             if (stories.IsRecords())
-                InsertAllRecords();
+                stories.InsertAllRecords();
             List<newStories> FetchAllRecords = stories.FetchAllRecords();
             return Ok(FetchAllRecords);
         }
@@ -41,16 +41,5 @@ namespace API_Rsystem.Controllers
         /// <param name="key"></param>
         /// <returns></returns>
         /// 
-
-        [HttpGet]
-        public IActionResult InsertAllRecords()
-        {
-            bool flag = stories.InsertAllRecords();
-            return Ok(flag);
-        }
-
-
-
-
     }
 }
