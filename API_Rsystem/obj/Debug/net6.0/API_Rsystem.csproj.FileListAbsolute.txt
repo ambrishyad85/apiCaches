@@ -6,6 +6,7 @@ C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\API_Rsystem.runtimecon
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\API_Rsystem.dll
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\API_Rsystem.pdb
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -25,4 +26,3 @@ C:\ambrish\Learn\API_Rsystem\API_Rsystem\obj\Debug\net6.0\refint\API_Rsystem.dll
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\obj\Debug\net6.0\API_Rsystem.pdb
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\obj\Debug\net6.0\API_Rsystem.genruntimeconfig.cache
 C:\ambrish\Learn\API_Rsystem\API_Rsystem\obj\Debug\net6.0\ref\API_Rsystem.dll
-C:\ambrish\Learn\API_Rsystem\API_Rsystem\bin\Debug\net6.0\Newtonsoft.Json.dll

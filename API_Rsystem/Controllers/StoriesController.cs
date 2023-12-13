@@ -24,7 +24,10 @@ namespace API_Rsystem.Controllers
         {
             stories = storie;
         }
-
+        /// <summary>
+        /// insert the all value in cache and fetch the all value from caches
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult FetchAllRecordsTitleAndURL()
         {
@@ -35,11 +38,6 @@ namespace API_Rsystem.Controllers
             return Ok(FetchAllRecords);
         }
 
-        /// <summary>
-        /// insert the all records for title and link by storyid
-        /// </summary>
-        /// <param name="key"></param>
-        /// <returns></returns>
-        /// 
+      
     }
 }
