@@ -1,15 +1,23 @@
 {
   "version": 2,
   "dgSpecHash": "TRTukIberCyPZj4Fo3bcXhrTH3X1maeeOGB9Im7QPOXzavQ6tOp3Wgj8rn+SVaj6RrdCzeXkLHwywt4k612sxQ==",
-  "success": false,
+  "success": true,
   "projectFilePath": "C:\\ambrish\\Learn\\API_Rsystem\\API_Rsystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ambayadav\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\ambayadav\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
@@ -44,66 +52,5 @@
     "C:\\Users\\ambayadav\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\ambayadav\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'NUnit.Analyzers' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='NUnit.Analyzers'&semVerLevel=2.0.0'.",
-      "libraryId": "NUnit.Analyzers"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'NUnit' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='NUnit'&semVerLevel=2.0.0'.",
-      "libraryId": "NUnit"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Microsoft.NET.Test.Sdk' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='Microsoft.NET.Test.Sdk'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.NET.Test.Sdk"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'NUnit3TestAdapter' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='NUnit3TestAdapter'&semVerLevel=2.0.0'.",
-      "libraryId": "NUnit3TestAdapter"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Microsoft.TestPlatform.ObjectModel' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='Microsoft.TestPlatform.ObjectModel'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.TestPlatform.ObjectModel"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'NUnit.Analyzers' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='NUnit.Analyzers'&semVerLevel=2.0.0'.",
-      "libraryId": "NUnit.Analyzers"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'NUnit' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='NUnit'&semVerLevel=2.0.0'.",
-      "libraryId": "NUnit"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Microsoft.TestPlatform.TestHost' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='Microsoft.TestPlatform.TestHost'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.TestPlatform.TestHost"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Microsoft.CodeCoverage' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='Microsoft.CodeCoverage'&semVerLevel=2.0.0'.",
-      "libraryId": "Microsoft.CodeCoverage"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'NUnit3TestAdapter' from remote source 'http://ustfsproxy.am.bm.net/LGNugetServer/nuget/FindPackagesById()?id='NUnit3TestAdapter'&semVerLevel=2.0.0'.",
-      "libraryId": "NUnit3TestAdapter"
-    }
-  ]
+  "logs": []
 }

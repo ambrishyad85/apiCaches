@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Rsystem", "API_Rsystem\API_Rsystem.csproj", "{50D4C671-18AE-4017-BD3D-1D93CCD5F9A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_RsystemAPI", "TestProject1\Test_RsystemAPI.csproj", "{5EA19061-1D9F-469C-B082-639DF329E98E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_RsystemAPI", "TestStories\Test_RsystemAPI.csproj", "{5746C225-E859-4645-9A25-D10E9399CB6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{50D4C671-18AE-4017-BD3D-1D93CCD5F9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D4C671-18AE-4017-BD3D-1D93CCD5F9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D4C671-18AE-4017-BD3D-1D93CCD5F9A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5EA19061-1D9F-469C-B082-639DF329E98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5EA19061-1D9F-469C-B082-639DF329E98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5EA19061-1D9F-469C-B082-639DF329E98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5EA19061-1D9F-469C-B082-639DF329E98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5746C225-E859-4645-9A25-D10E9399CB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5746C225-E859-4645-9A25-D10E9399CB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5746C225-E859-4645-9A25-D10E9399CB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5746C225-E859-4645-9A25-D10E9399CB6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
