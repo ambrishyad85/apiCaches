@@ -34,7 +34,7 @@ namespace API_Rsystem.Controllers
 
             if (stories.IsRecords())
                 stories.InsertAllRecords();
-            List<newStories> FetchAllRecords = stories.FetchAllRecords().Where(x=>x.id!= 38633682).ToList();
+            List<newStories> FetchAllRecords = stories.FetchAllRecords();
             return Ok(FetchAllRecords);
         }
 
