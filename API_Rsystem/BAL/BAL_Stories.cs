@@ -56,7 +56,7 @@ namespace API_Rsystem.BAL
             {
                 Parallel.ForEach(_FetchStoriesID.Result, item =>
                 {
-                    Task<newStories> _FetchTitleLinkBystoriesID = FetchTitleLinkBystoriesID(item, true);
+                    Task<newStories> _FetchTitleLinkBystoriesID = FetchTitleLinkBystoriesID(item);
                 });
 
             }
@@ -67,7 +67,7 @@ namespace API_Rsystem.BAL
         /// insert the title and link in chache if key is not avilable
         /// </summary>
         /// <param name="newStorie"></param>
-        public void InsertTitleLinkStories(newStories newStorie, bool flag)
+        public bool InsertTitleLinkStories(newStories newStorie)
         {
 
             try
@@ -79,12 +79,13 @@ namespace API_Rsystem.BAL
                         { cacheStories.Set(newStorie.id, newStorie); }
                    
                 }
-               
+                
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
+            return true;
 
         }
 
@@ -131,7 +132,7 @@ namespace API_Rsystem.BAL
         /// </summary>
         /// <param name="item"></param>
         /// <returns></returns>
-        public async Task<newStories> FetchTitleLinkBystoriesID(string item, bool flag=false)
+        public async Task<newStories> FetchTitleLinkBystoriesID(string item)
         {
             try
             {
@@ -156,7 +157,7 @@ namespace API_Rsystem.BAL
 
                         // stored the title and link
                         if(_newStoriesTitleLink!=null)
-                        InsertTitleLinkStories(_newStoriesTitleLink,flag);
+                        InsertTitleLinkStories(_newStoriesTitleLink);
                     }
 
                     return _newStoriesTitleLink;

@@ -18,6 +18,7 @@ public class Tests
     IMemoryCache _cacheStories;
     MemoryCacheOptions _MemoryCacheOptions;
     IOptions<MemoryCacheOptions> _optionsAccessor;
+    newStories newStorie;
     [SetUp]
     public void Setup()
     {
@@ -26,6 +27,7 @@ public class Tests
         _cacheStories = new MemoryCache(_optionsAccessor);
         _stories = new BAL_Stories(_cacheStories);
         _StoriesController = new StoriesController(_stories);
+        newStorie = new newStories();
 
     }
     private static void ConfigureServices(IServiceCollection services)
@@ -42,6 +44,40 @@ public class Tests
 
         var FetchAllRecords = _StoriesController.FetchAllRecordsTitleAndURL();
         Assert.IsNotNull(FetchAllRecords);
+
+    }
+
+    //[Test]
+    [TestCase]
+    public void SaveRecordsInCache()
+    {   
+        newStorie.title = "this is new stores";
+        newStorie.url = "http://localhost:4200/ViewStories";
+        bool flag = _stories.InsertTitleLinkStories(newStorie);
+        Assert.IsTrue(flag);
+        FetchInsertedRecords(newStorie);
+    }
+    [TestCase]
+    public void FetchInsertedRecordsCache()
+    {
+        List<newStories> lstCachesStories = _stories.FetchAllRecords();
+        Assert.IsNull(lstCachesStories);
+        Assert.GreaterOrEqual(1, lstCachesStories.Count());
+        Assert.IsNotNull(lstCachesStories);
+
+    }
+
+    private void FetchInsertedRecords(newStories newStorie)
+    {
+        List<newStories> lstCachesStories = _stories.FetchAllRecords();
+        Assert.GreaterOrEqual(1, lstCachesStories.Count());
+        if (lstCachesStories != null)
+        {
+            foreach (var item in lstCachesStories)
+            {
+                Assert.AreSame(newStorie.url, item.url);
+            }
+        }
 
     }
 }

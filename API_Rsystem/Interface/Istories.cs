@@ -9,8 +9,10 @@ namespace API_Rsystem.Interface
         
          Task<List<string>> FetchStoriesID();
 
-         Task<newStories> FetchTitleLinkBystoriesID(string item, bool flag = false);
+         Task<newStories> FetchTitleLinkBystoriesID(string item);
 
         bool InsertAllRecords();
+
+        bool InsertTitleLinkStories(newStories newStorie);
     }
 }
